@@ -37,6 +37,6 @@ class Frontend extends FrontendController
     public function index()
     {
         // Example
-        //$this->load->view('frontend/dashboard');
+        echo Modules::run('dashboard');
     }
 }

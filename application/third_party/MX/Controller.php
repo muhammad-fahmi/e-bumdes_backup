@@ -1,4 +1,6 @@
 <?php defined('BASEPATH') or exit('No direct script access allowed');
+$_SERVER['VAR_DUMPER_FORMAT'] = 'server';
+$_SERVER['VAR_DUMPER_SERVER']= 'host.docker.internal:9912';
 
 // load the CI class for Modular Extensions
 require_once __DIR__ .'/Base.php';
